@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*ethu margin and padding set panna easy aaga erukkum*/
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(back.jpg) ;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    /*background-position: center;*/
+}
+#logo{
+position: relative;
+left: 40px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: white;
+    /*border: 1px solid white;*/
+   /* padding: 10px;*/
+   padding: 5px 20px;
+   transition: 0.6s ease; /* hover click pannum pohthu edpadum mardram*/
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 15px;
+    font-size: 20px;
+    
+}
+nav{
+    float: right;
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+div h1,button{
+    text-transform: uppercase;
+   text-align: center;
+  
+}
+h1{
+    color: white;
+    font-size: 80px;
+    margin-top: 150px;
+   /* transform: translate(-50%,-50%);*/
+}
+button{
+    padding: 10px;
+    border-color: white;
+    background: none;
+    color: white;
+    position: relative;
+    left: 40%;
+    margin-left: 20px;
+    
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+/*page center la kaata
+ellam content um adaitha div tag kku margin:auto; 
+and width:1200px; kodukkanum
+*/
+
+ul li.active a{
+    background-color: white;
+    color: black;
+    /* current page link aa active aa kaatum*/
+}
